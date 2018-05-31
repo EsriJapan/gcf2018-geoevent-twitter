@@ -36,11 +36,11 @@ Twitter コネクターに関しましては以下のサイトにて公開され
 * https://github.com/Esri/twitter-for-geoevent
 ![ArcGIS GeoEvent Server 管理画面イメージ](https://github.com/EsriJapan/gcf2018-geoevent-twitter/blob/master/images/geoevent_manager_sample.PNG)
 
-## lightgeocode-processor（簡易ジオコードプロセッサー）
-簡易ジオコードプロセッサーは、地域に関する名称より緯度経度の座標を ArcGIS GeoEvent Server 内のジオイベント上にセットします。
+## lightgeocode-processor（簡易ジオコードプロセッサ）
+簡易ジオコードプロセッサは、地域に関する名称より緯度経度の座標を ArcGIS GeoEvent Server 内のジオイベント上にセットします。
 
-## textanalysis-processor（テキスト解析プロセッサー）
-テキスト解析プロセッサーは、ツィート本文内のテキストを形態素解析し、好感度の辞書が存在する場合は文章中の好感度をスコア化してジオイベントにセットします。
+## textanalysis-processor（テキスト解析プロセッサ）
+テキスト解析プロセッサは、ツィート本文内のテキストを形態素解析し、好感度の辞書が存在する場合は文章中の好感度をスコア化してジオイベントにセットします。
 スコアの標準値は100を基準としています。
 
 ### 辞書の配置場所
